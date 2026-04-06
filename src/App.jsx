@@ -6,13 +6,13 @@ export const App = () => {
 
   const addOne = () => {
     setCount(cur => {
-      return (cur + 1);
+      return cur + 1;
     });
   };
 
   const add100 = () => {
     setCount(cur => {
-      return (cur + 100);
+      return cur + 100;
     });
     // write code here
   };
